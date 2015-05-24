@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Pontano Sans';
+    src: url('../fonts/PontanoSans-Regular.eot');
+    /* IE9 Compat Modes */
+
+    src: url('../fonts/PontanoSans-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+
+    url('../fonts/PontanoSans-Regular.woff') format('woff'),
+    /* Modern Browsers */
+
+    url('../fonts/PontanoSans-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+
+    url('../fonts/PontanoSans-Regular.svg#05b551fffa46fc9bd980e3bfd15ecf62') format('svg');
+    /* Legacy iOS */
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Stint Ultra';
+    src: url('../fonts/StintUltraExpanded-Regular.eot');
+    /* IE9 Compat Modes */
+
+    src: url('../fonts/StintUltraExpanded-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+
+    url('../fonts/StintUltraExpanded-Regular.woff') format('woff'),
+    /* Modern Browsers */
+
+    url('../fonts/StintUltraExpanded-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+
+    url('../fonts/StintUltraExpanded-Regular.svg#6624646a268cc1c23a06a1ba8b139d8e') format('svg');
+    /* Legacy iOS */
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Stint Ultra' sans-serif;
+}
+
+p,
+span,
+div,
+a {
+    font-family: 'Pontano Sans' sans-serif;
+}
+
+#mainContent {
+    background-color:
+    /*#ecdeb8*/
+
+    #CFD8DC;
+    box-shadow: 1px 3px 50px #424242;
+}
+
+#headerImg {
+    width: 300px;
+    height: auto;
+}
+
+#header {
+    background-color: #90CAF9;
+    opacity: 75%;
+}
+
+#head {
+    border-left: solid medium #B71C1C;
+}
+
+a {
+    color: #2962FF;
+    text-decoration: none;
+    transition: all 0.3s ease 0.2s
+}
+
+a:hover {
+    color: #0091EA;
+}
