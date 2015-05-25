@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/flexboxgrid.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/semantic.css">
-    <link rel="stylesheet" href="https://rawgit.com/blivesta/animsition/master/dist/css/animsition.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/blivesta/animsition/master/dist/css/animsition.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/icon.css">
@@ -20,7 +20,7 @@
     <script src="assets/js/jquery.easing.1.3.js"></script>
 
     <script src="assets/js/semantic.js"></script>
-    <script src="https://rawgit.com/blivesta/animsition/master/dist/js/jquery.animsition.min.js"></script>
+    <script src="https://cdn.rawgit.com/blivesta/animsition/master/dist/js/jquery.animsition.min.js"></script>
     <script src="assets/js/jquery-scrolltofixed.js"></script>
 </head>
 
@@ -101,7 +101,7 @@
                                     <div class="ui divider"></div>
                                     <div class="sixteen wide column" id="joinUs">
                                         <h2>Registration for the 2014-2015 school year is now open!</h2>
-                                        <p>The button below will take you to the registration form. If you have any difficulty, please email admin@arch-raleigh.com for support. To learn more about our organization before joining, <a href="#" onclick="licenseModal()">contact us.</a>
+                                        <p>The button below will take you to the registration form. If you have any difficulty, please email admin@arch-raleigh.com for support. To learn more about our organization before joining, <a href="#" onclick="contatctModal()">contact us.</a>
                                         </p>
                                         <p> Payment of dues and submission of the registration form will give you access to our Yahoo group where the bulk of our communication takes place.</p>
                                         <p> (Please do not let financial hardship keep your family from joining ARCH Raleigh. If you are in need of assistance for dues, please contact treas@arch-raleigh.com)</p>
@@ -109,7 +109,7 @@
                                     <div class="sixteen wide column" id="contact">
                                         <h2>Click the button to fill out the inquiry form.</h2>
                                         <p>Serious inqueries only please.</p>
-                                        <div class="ui green button" onclick="licenseModal()">Contact Us</div>
+                                        <div class="ui green button" onclick="contactModal()">Contact Us</div>
                                         <div class="ui modal">
                                             <i class="close icon"></i>
                                             <div class="content">
@@ -205,7 +205,7 @@
     wow.init();
 </script>
 <script>
-    function licenseModal() {
+    function contactModal() {
         $('.modal')
             .modal('show');
     }
