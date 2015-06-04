@@ -1,3 +1,3 @@
 # ARCH-Website
 ==============
-Nothing iteresting here
+Nothing interesting here
