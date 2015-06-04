@@ -40,6 +40,11 @@
     font-weight: 400;
 }
 
+html,
+body {
+    background-color: #eadcb9;
+}
+
 h1,
 h2,
 h3,
@@ -86,4 +91,9 @@ a {
 
 a:hover {
     color: #0091EA;
+}
+
+.homeTitle {
+    color: #1976D2;
+    text-shadow: 0px 1px 25px #37474F;
 }

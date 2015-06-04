@@ -50,7 +50,7 @@
         <div class="ui vertical segment">
             <div class="ui centered page grid">
                 <div class="ui sixteen wide column">
-                    <h1 align="center">Association of Roman Catholic Homescoolers</h1>
+                    <h1 align="center" class="homeTitle">Association of Roman Catholic Homescoolers</h1>
                     <div class="ui hidden divider"></div>
                     <div class="ui vertical segment">
                         <div class="ui centered page grid" id="mainContent">
@@ -101,7 +101,7 @@
                                     <div class="ui divider"></div>
                                     <div class="sixteen wide column" id="joinUs">
                                         <h2>Registration for the 2014-2015 school year is now open!</h2>
-                                        <p>The button below will take you to the registration form. If you have any difficulty, please email admin@arch-raleigh.com for support. To learn more about our organization before joining, <a href="#" onclick="contatctModal()">contact us.</a>
+                                        <p>The button below will take you to the registration form. If you have any difficulty, please email admin@arch-raleigh.com for support. To learn more about our organization before joining, <a href="" onclick="contatctModal()">contact us.</a>
                                         </p>
                                         <p> Payment of dues and submission of the registration form will give you access to our Yahoo group where the bulk of our communication takes place.</p>
                                         <p> (Please do not let financial hardship keep your family from joining ARCH Raleigh. If you are in need of assistance for dues, please contact treas@arch-raleigh.com)</p>
@@ -207,6 +207,7 @@
 <script>
     function contactModal() {
         $('.modal')
+            .modal('setting', 'transition', 'fade up')
             .modal('show');
     }
 </script>
