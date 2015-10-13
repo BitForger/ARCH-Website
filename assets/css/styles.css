@@ -61,7 +61,7 @@ a {
     font-family: 'Pontano Sans' sans-serif;
 }
 
-#mainContent {
+.mainContent {
     background-color:
     /*#ecdeb8*/
 
@@ -79,7 +79,7 @@ a {
     opacity: 75%;
 }
 
-#head {
+.head {
     border-left: solid medium #B71C1C;
 }
 

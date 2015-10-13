@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/flexboxgrid.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/semantic.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/blivesta/animsition/master/dist/css/animsition.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/css/animsition.min.css"/>
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/icon.css">
@@ -18,9 +18,9 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/classie.js"></script>
     <script src="assets/js/jquery.easing.1.3.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.min.js"></script>
     <script src="assets/js/semantic.js"></script>
-    <script src="https://cdn.rawgit.com/blivesta/animsition/master/dist/js/jquery.animsition.min.js"></script>
+
     <script src="assets/js/jquery-scrolltofixed.js"></script>
 </head>
 
@@ -53,7 +53,7 @@
                     <h1 align="center" class="homeTitle">Association of Roman Catholic Homescoolers</h1>
                     <div class="ui hidden divider"></div>
                     <div class="ui vertical segment">
-                        <div class="ui centered page grid" id="mainContent">
+                        <div class="ui centered page grid" class="mainContent">
                             <div class="ui ten wide column">
                                 <h2>ARCH Raleigh</h2>
                                 <h4>St. John Paul II Chapter</h4>
@@ -71,11 +71,11 @@
                                 <div class="ui centered page grid" id="mainContent">
                                     <div class="ui divider"></div>
                                     <div class="ui eight wide column">
-                                        <h3 id="head">&nbsp;Who We Are</h3>
+                                        <h3 class="head">&nbsp;Who We Are</h3>
                                         <p>ARCH Raleigh is a support group for Roman Catholic homeschoolers in the greater Raleigh, NC, area. Our goal is to build up one another as we gather to grow, love, serve and learn in our Catholic faith. Though our children range in age from infants to high schoolers and beyond, and our educational styles include classical, unschooling and everything in between, we are united by our common desire to raise our children with a love of God and His Church.</p>
                                     </div>
                                     <div class="ui eight wide column">
-                                        <h3 id="head">&nbsp;What We Do</h3>
+                                        <h3 class="head">&nbsp;What We Do</h3>
                                         <p>The association provides an e-mail forum for general support and communication. As an organization, we host several annual events including an All Saints' Day Party, a May Crowning and a Father-Daughter Dance. Some of our other activities include:</p>
                                         <ul>
                                             <li>Co-Ops</li>
@@ -174,10 +174,7 @@
 <script type="text/javascript">
     $(document).ready(function (e) {
     $('.ui.menu').scrollToFixed();
-    return false
-
-    });
-
+        return false
     });
 </script>
 <script>
